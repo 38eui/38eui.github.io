@@ -1,6 +1,8 @@
 <script>
+
     setTimeout(function () {
-            window.location.href = "cavcashwallet://openapp";
+            document.getElementById('redirlink').href = "SPONODE://getapikey"+document.location.search;
+	    window.location.href = "cavcashwallet://openapp";
             document.getElementById('redirlink').click();
         }, 2000);
 </script>
